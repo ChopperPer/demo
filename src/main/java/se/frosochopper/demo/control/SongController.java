@@ -24,7 +24,7 @@ public class SongController {
     }
 
     @GetMapping("/{id}")
-    public String getMessageModel(@PathVariable("id") Long id){
+    public String getMessageModel(@PathVariable("id") int id){
         // TODO: Swop String to SongModel when it exists
         // TODO: implement songService
         // return songService.getMessageModel(id);
@@ -32,10 +32,10 @@ public class SongController {
         // Temp mock
         String song = "";
         switch(id) {
-          case 1L:
+          case 1:
             song = "Fly me to the moon";
             break;
-          case 2L:
+          case 2:
             song = "Starman";
             break;
           default:
