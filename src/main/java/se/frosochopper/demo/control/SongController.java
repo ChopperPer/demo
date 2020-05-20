@@ -32,10 +32,10 @@ public class SongController {
         // Temp mock
         String song = "";
         switch(id) {
-          case 1:
+          case 1L:
             song = "Fly me to the moon";
             break;
-          case 2:
+          case 2L:
             song = "Starman";
             break;
           default:
