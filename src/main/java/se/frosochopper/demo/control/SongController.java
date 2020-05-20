@@ -17,7 +17,7 @@ public class SongController {
         // return songService.getAll();
         
         //Temp mock
-        private ArrayList<String> songs = new ArrayList<String>();
+        ArrayList<String> songs = new ArrayList<String>();
         songs.add("Fly me to the moon");
         songs.add("Star man");
         return songs;
