@@ -10,7 +10,7 @@ public class SongController {
     @GetMapping("/ping")
     public String ping() { return "Pong"; }
     
-    @GetMapping(value={"", "/"})
+    @GetMapping(path={"", "/"})
     public ArrayList<String> getAll(){
         // TODO: Swop String to SongModel when it exists
         // TODO: implement songService
